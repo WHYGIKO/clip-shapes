@@ -14,20 +14,21 @@
       margin-top: 90px;
       gap: 0px;
     }
-
+    
     .ranglar {
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
-
+    
     .color-group h4 {
       margin: 0;
       font-size: 14px;
       font-weight: bold;
     }
-
+    
     .colors {
+      background-color: white;
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -46,11 +47,10 @@
     }
 
     .shape-container {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
+      width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       padding: 30px;
     }
 
